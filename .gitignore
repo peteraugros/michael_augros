@@ -1,0 +1,13 @@
+# OS cruft
+.DS_Store
+
+# Source materials containing private info (student names) — never publish
+*.docx
+
+# Redundant originals — the site uses the copies in assets/img/
+/AUGROS 2025.jpg
+/MICHAEL AUGROS.jpg
+/AIandEthicsPanel_0043.jpg
+
+# Internal working/strategy notes — kept local, not for a public repo
+CLAUDE.md

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Michael Augros | Teacher, Author & Speaker</title>
+  <meta name="description" content="Michael Augros, teacher, author, and speaker bringing the thought of Thomas Aquinas to contemporary audiences. Professor at Thomas Aquinas College. Invite Michael to speak." />
+
+  <!-- Open Graph / social sharing (important for a platform site) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Michael Augros | Teacher, Author & Speaker" />
+  <meta property="og:description" content="Bringing the thought of Thomas Aquinas to contemporary audiences. Invite Michael to speak." />
+  <meta property="og:image" content="assets/img/michael-augros-portrait.jpg" />
+  <!-- TODO: set og:url to the live domain once chosen -->
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header" id="top">
+    <div class="container nav-inner">
+      <a href="#top" class="brand">Michael&nbsp;Augros</a>
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Menu">&#9776;</button>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#speaking">Speaking</a></li>
+          <li><a href="#writing">Writing</a></li>
+          <li><a href="#credentials">Credentials</a></li>
+          <li><a href="#contact" class="btn btn-primary btn-sm">Invite Michael to Speak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Teacher &middot; Author &middot; Speaker</p>
+          <h1>Michael Augros</h1>
+          <!-- HERO = Version A ("Named"): Michael's own approved one-liner, foregrounded. -->
+          <p class="lede">Bringing the thought of St.&nbsp;Thomas Aquinas to contemporary audiences.</p>
+          <p class="lede-sub">On God, the soul, and the human person: the wisdom of Aristotle and Aquinas, made clear for the questions of our age.</p>
+          <div class="hero-cta">
+            <a href="#contact" class="btn btn-primary">Invite Michael to Speak</a>
+            <a href="#speaking" class="btn btn-ghost">Watch a talk</a>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <img src="assets/img/michael-augros-portrait.jpg" alt="Portrait of Michael Augros" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div class="about-photo">
+          <img src="assets/img/michael-augros-2025.jpg" alt="Michael Augros, 2025" />
+        </div>
+        <div class="about-copy">
+          <h2 class="section-title">About Michael</h2>
+          <!-- DRAFT bio — replace with Michael's approved narrative once CV / bio arrives.
+               ABOUT opens in Version B's register ("Broad") — addresses the searching,
+               not-yet-Catholic reader before the explicitly Thomistic framing arrives. -->
+          <p class="big">Michael Augros makes the deepest questions clear, for a world that has begun asking them again. God, the soul, what it means to be human in the age of the machine: the questions never went away, and he has spent his life learning to answer them with rigor, warmth, and uncommon clarity.</p>
+          <p>A professor at Thomas Aquinas College (where he teaches across the curriculum, today on the New England campus after many years in California), Michael has spent his career drawing on Aristotle and St.&nbsp;Thomas Aquinas to illuminate the questions that matter most: Does God exist? What is the human soul? Can a machine ever truly think? He is the author of <em>Who Designed the Designer?</em> and <em>The Immortal in You</em>, and has spoken everywhere from the Oxford Union to parishes, conferences, and classrooms across the country.</p>
+          <p>What sets Michael apart is not only the rigor of his thought but his rare gift for delivery: the ability to take a dense argument and hand it to an audience whole, with clarity, warmth, and humor. Students and organizers say the same thing again and again: they came expecting a lecture and left having seen something come alive.</p>
+          <!-- TODO: weave in the "new leg of the journey" mission framing once positioning is settled -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SPEAKING (conversion section) ============ -->
+    <section id="speaking" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title center">Speaking</h2>
+        <p class="section-intro center">Michael speaks to parishes, conferences, universities, and Catholic institutions: keynotes, seminars, retreats, and parish talks. Below is a sense of his range and what it&rsquo;s like to have him in the room.</p>
+
+        <!-- VIDEO: the single most persuasive asset.
+             NOTE: YouTube embeds only load over http(s). If the page is opened directly
+             from disk (file://) all videos stay blank. Serve the folder instead:
+               python3 -m http.server 8000   ->   http://localhost:8000 -->
+        <div class="video-wrap">
+          <!-- Lead embed: Michael's pick — The Mind and the Machine, Episode 10. -->
+          <iframe
+            src="https://www.youtube.com/embed/bSRjVQzY0VA"
+            title="AI and Humanity: What Our Machines Say About Us — The Mind and the Machine, Episode 10"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
+        </div>
+
+        <!-- Secondary clips: clean placeholders until real clip IDs exist.
+             To activate one, replace the whole .video-placeholder div with:
+               <div class="video-wrap"><iframe src="https://www.youtube.com/embed/REAL_ID"
+                 title="..." allow="encrypted-media; picture-in-picture; web-share"
+                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div> -->
+        <div class="video-grid">
+          <div class="video-card">
+            <div class="video-wrap">
+              <iframe
+                src="https://www.youtube.com/embed/V7lavrqdrMY"
+                title="Michael Augros on EWTN Bookmark: Who Designed the Designer?"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
+            </div>
+            <p class="video-caption">&ldquo;Who Designed the Designer?&rdquo; &middot; EWTN Bookmark</p>
+          </div>
+          <div class="video-card">
+            <div class="video-wrap">
+              <iframe
+                src="https://www.youtube.com/embed/nudCImiM3Og"
+                title="The Immortal in You — Michael Augros on the Patrick Coffin Show"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
+            </div>
+            <p class="video-caption">&ldquo;The Immortal in You&rdquo; &middot; Interview, Patrick Coffin Show</p>
+          </div>
+        </div>
+
+        <!-- TALK TOPICS — DRAFT menu drawn from Michael's real themes. Confirm titles & framing with Michael. -->
+        <h3 class="subhead">Talks &amp; Topics</h3>
+        <div class="topics-grid">
+          <article class="topic-card">
+            <h4>Who Designed the Designer?</h4>
+            <p>A clear, rediscovered path to God&rsquo;s existence, answering the New Atheists on their own ground using Aristotle and Aquinas.</p>
+          </article>
+          <article class="topic-card">
+            <h4>The Immortal in You</h4>
+            <p>What common sense and human experience reveal about the soul that science alone never could.</p>
+          </article>
+          <article class="topic-card">
+            <h4>The Mind &amp; the Machine</h4>
+            <p>Can a machine truly think? What artificial intelligence reveals, and conceals, about what it means to be a person.</p>
+          </article>
+          <article class="topic-card">
+            <h4>Why Philosophers Disagree</h4>
+            <p>How reasonable minds diverge, and what the great tradition offers a culture that has lost its confidence in truth.</p>
+          </article>
+        </div>
+        <p class="note center">Each talk can be shaped to your audience and format. <a href="#contact">Tell us what you have in mind &rarr;</a></p>
+
+        <!-- TESTIMONIALS — pulled from Michael's teaching testimonials. -->
+        <h3 class="subhead">What People Say</h3>
+        <div class="quotes-grid">
+          <blockquote>
+            <p>&ldquo;I learned more in fifteen minutes of your class than in months of my education. But the thing that impressed me most was how every student was totally engaged. You really have a way with those kids.&rdquo;</p>
+            <cite>Chairman of the Board of Governors, Thomas Aquinas College</cite>
+          </blockquote>
+          <blockquote>
+            <p>&ldquo;I thought I hated math until I took this class.&rdquo;</p>
+            <cite>Junior mathematics student, Thomas Aquinas College</cite>
+          </blockquote>
+          <blockquote>
+            <p>&ldquo;You brought that course to life for me&hellip; I have learned so much about my faith from you. I have been blessed and honored to be one of your students.&rdquo;</p>
+            <cite>Senior theology student, Thomas Aquinas College</cite>
+          </blockquote>
+          <blockquote>
+            <p>&ldquo;Senior theology served as a great and beautiful crown atop my time at the College, and you were no small part of that.&rdquo;</p>
+            <cite>Graduating senior, Thomas Aquinas College</cite>
+          </blockquote>
+        </div>
+
+        <div class="center">
+          <a href="#contact" class="btn btn-primary">Invite Michael to Speak</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WRITING & PUBLICATIONS ============ -->
+    <section id="writing" class="section">
+      <div class="container">
+        <h2 class="section-title center">Writing &amp; Publications</h2>
+        <div class="books-grid">
+          <article class="book-card">
+            <img class="book-cover" src="assets/img/book-who-designed-the-designer.jpg" alt="Cover of Who Designed the Designer? by Michael Augros" loading="lazy" />
+            <div class="book-info">
+              <h3>Who Designed the Designer?</h3>
+              <p class="book-sub">A Rediscovered Path to God&rsquo;s Existence</p>
+              <p>A direct, concise antidote to the New Atheist arguments, demonstrating the logical necessity of an intelligent, uncreated first cause, drawing on Plato, Aristotle, and Aquinas.</p>
+              <p class="book-buy">
+                <a href="https://ignatius.com/who-designed-the-designer-wddp/" target="_blank" rel="noopener">Ignatius Press</a>
+                <a href="https://www.amazon.com/Who-Designed-Designer-Rediscovered-Existence/dp/1586179691" target="_blank" rel="noopener">Amazon</a>
+              </p>
+            </div>
+          </article>
+          <article class="book-card">
+            <img class="book-cover" src="assets/img/book-the-immortal-in-you.jpg" alt="Cover of The Immortal in You by Michael Augros" loading="lazy" />
+            <div class="book-info">
+              <h3>The Immortal in You</h3>
+              <p class="book-sub">How Human Nature Is More Than Science Can Say</p>
+              <p>An argument from common sense and ordinary experience that there is more to the human person than the sciences can capture.</p>
+              <p class="book-buy">
+                <a href="https://ignatius.com/the-immortal-in-you-iiyp/" target="_blank" rel="noopener">Ignatius Press</a>
+                <a href="https://www.amazon.com/Immortal-You-Human-Nature-Science/dp/1621641538" target="_blank" rel="noopener">Amazon</a>
+              </p>
+            </div>
+          </article>
+        </div>
+        <p class="note center">Selected lectures, essays, and articles will be listed here. <em>(Awaiting full publication list from Michael&rsquo;s CV.)</em></p>
+      </div>
+    </section>
+
+    <!-- ============ CREDENTIALS ============ -->
+    <section id="credentials" class="section section-alt">
+      <div class="container credentials-grid">
+        <div>
+          <h2 class="section-title">Credentials</h2>
+          <!-- DRAFT — verify all against Michael's updated CV. -->
+          <ul class="cred-list">
+            <li><strong>Professor</strong>, Thomas Aquinas College (New England), teaching across the curriculum</li>
+            <li><strong>Ph.D. in Philosophy</strong>, Boston College, 1995</li>
+            <li><strong>M.A. in Philosophy</strong>, Boston College, 1993</li>
+            <li><strong>B.A.</strong>, Thomas Aquinas College, 1992</li>
+            <li>Speaker, the Oxford Union</li>
+            <li>Author of <em>Who Designed the Designer?</em> and <em>The Immortal in You</em></li>
+          </ul>
+        </div>
+        <aside class="cv-callout">
+          <h3>Curriculum Vitae</h3>
+          <p>The full record of degrees, positions, publications, and lectures.</p>
+          <!-- TODO: drop the final PDF at assets/docs/michael-augros-cv.pdf -->
+          <a class="btn btn-primary" href="assets/docs/michael-augros-cv.pdf" download>Download CV (PDF)</a>
+          <p class="note">CV coming soon. Placeholder link for now.</p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT / BOOKING ============ -->
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <h2 class="section-title">Invite Michael to Speak</h2>
+          <p>Michael speaks to parishes, conferences, universities, and Catholic institutions across the country and abroad. To make your inquiry easy to act on, please include:</p>
+          <ul class="checklist">
+            <li>Your <strong>event date</strong> (or range)</li>
+            <li>Your <strong>audience</strong>: who they are and roughly how many</li>
+            <li>The <strong>topic</strong> or theme you have in mind</li>
+            <li>The <strong>format</strong>: keynote, seminar, parish talk, retreat, panel</li>
+          </ul>
+        </div>
+        <div class="contact-form-wrap">
+          <!-- Form posts nowhere yet. Wire to an email service (Formspree / Netlify Forms / etc.) on deploy. -->
+          <form class="contact-form" action="#" method="post" onsubmit="return false;">
+            <label>Name <input type="text" name="name" required /></label>
+            <label>Email <input type="email" name="email" required /></label>
+            <label>Organization <input type="text" name="org" /></label>
+            <label>Event date <input type="text" name="date" placeholder="e.g. Spring 2027" /></label>
+            <label>Tell us about your event
+              <textarea name="message" rows="4" placeholder="Audience, topic, format…"></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Send inquiry</button>
+            <p class="note">Form not yet connected, so email <a href="mailto:mikeaugros@gmail.com">mikeaugros@gmail.com</a> directly.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-brand">Michael Augros</p>
+        <p class="footer-tag">Teacher &middot; Author &middot; Speaker</p>
+        <p class="footer-tag">
+          <!-- TAC-produced "The Mind & the Machine" AI series -->
+          <a href="https://www.thomasaquinas.edu/mind" target="_blank" rel="noopener" class="footer-link">Watch the AI series</a>
+          &nbsp;&middot;&nbsp;
+          <span>Substack, launching Fall 2026</span>
+        </p>
+      </div>
+      <div class="footer-actions">
+        <a href="#contact" class="btn btn-primary btn-sm">Invite Michael to Speak</a>
+        <a href="assets/docs/michael-augros-cv.pdf" download class="footer-link">Download CV</a>
+      </div>
+    </div>
+    <p class="copyright">&copy; <span id="year"></span> Michael Augros. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
