@@ -171,11 +171,11 @@ img { max-width: 100%; display: block; }
   .combo-bottom { grid-template-columns: 1fr; }
   .combo-cell + .combo-cell { border-left: 0; border-top: 1px solid var(--line); }
 }
-/* Substack brand cues (orange tag + logo mark) */
-.substack-brand {
-  display: inline-flex; align-items: center; gap: 8px;
-  margin: 0 0 16px; color: #ff6719;
-  font-weight: 700; font-size: .8rem; letter-spacing: .14em; text-transform: uppercase;
+/* Substack brand cues (full-width orange banner + logo mark) */
+.combo-banner {
+  display: flex; align-items: center; justify-content: center; gap: 9px;
+  padding: 13px 20px; background: #ff6719; color: #fff;
+  font-weight: 700; font-size: .82rem; letter-spacing: .14em; text-transform: uppercase;
 }
 .substack-logo { width: 18px; height: 18px; fill: currentColor; }
 .btn-logo { width: 16px; height: 16px; fill: currentColor; vertical-align: -2px; margin-right: 9px; }
