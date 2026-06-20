@@ -9,15 +9,18 @@
 ## 1. Why we're rebuilding
 
 The v1 site is built around **"Invite Michael to Speak."** Michael read it and rejected that
-premise (not the design, he liked the look and most of the copy). His own words:
+premise (not the design, he liked the look and most of the copy). Paraphrasing his reply, the
+points he made were:
 
-> [redacted]
-> [redacted]
-> [redacted]
-> [redacted]
-> [redacted]
-> [redacted]
-> [redacted]
+- He is not really free to speak: he has a full-time teaching job he depends on and loves, and can
+  speak only once or twice a year.
+- He does not want the lecture circuit or interviews. To him they are advertisement, not a medium
+  for making his ideas available.
+- What he wants is in-person instruction (which he already has) plus making his ideas available
+  through writing and video.
+- He is pursuing the writing angle on Substack and the video angle with TAC. A partnership with a
+  bigger-reach organization that could work around his teaching job would be ideal (he named
+  Peterson Academy).
 
 So booking is **not** the goal. The goals, in his words, are: **make his ideas available** (writing +
 video), and **land a video/online partnership that fits around his teaching job.**
