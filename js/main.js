@@ -1,4 +1,4 @@
-// Michael Augros — site interactions
+// Michael Augros: site interactions
 
 // Mobile nav toggle
 (function () {

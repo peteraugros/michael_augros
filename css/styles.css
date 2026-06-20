@@ -1,5 +1,5 @@
 /* ============================================================
-   Michael Augros — site styles
+   Michael Augros: site styles
    Palette: ink navy, warm parchment, antique gold accent
    Type: Cormorant Garamond (display) / Inter (text)
    ============================================================ */
@@ -154,6 +154,32 @@ img { max-width: 100%; display: block; }
 .topic-card h4 { font-size: 1.5rem; color: var(--ink); }
 .topic-card p { margin: 0; color: var(--ink-soft); }
 
+/* ---------- Essays & Podcast combo card (one card: full-width top, two equal halves below) ---------- */
+.combo-card {
+  max-width: 900px; margin: 0 auto;
+  background: var(--paper); border: 1px solid var(--line);
+  border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden;
+}
+.combo-top { padding: 36px 34px 30px; text-align: center; border-bottom: 1px solid var(--line); }
+.combo-top .note { margin-bottom: 0; }
+.combo-bottom { display: grid; grid-template-columns: 1fr 1fr; }
+.combo-cell { padding: 30px 32px; }
+.combo-cell + .combo-cell { border-left: 1px solid var(--line); }
+.combo-cell h4 { font-size: 1.5rem; color: var(--ink); }
+.combo-cell p { margin: 0; color: var(--ink-soft); }
+@media (max-width: 620px) {
+  .combo-bottom { grid-template-columns: 1fr; }
+  .combo-cell + .combo-cell { border-left: 0; border-top: 1px solid var(--line); }
+}
+/* Substack brand cues (orange tag + logo mark) */
+.substack-brand {
+  display: inline-flex; align-items: center; gap: 8px;
+  margin: 0 0 16px; color: #ff6719;
+  font-weight: 700; font-size: .8rem; letter-spacing: .14em; text-transform: uppercase;
+}
+.substack-logo { width: 18px; height: 18px; fill: currentColor; }
+.btn-logo { width: 16px; height: 16px; fill: currentColor; vertical-align: -2px; margin-right: 9px; }
+
 /* ---------- Quotes ---------- */
 .quotes-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
 blockquote {
@@ -174,6 +200,14 @@ blockquote cite { font-style: normal; font-size: .9rem; font-weight: 600; color:
 .book-buy a { font-weight: 600; font-size: .95rem; }
 .link-arrow { font-weight: 600; }
 @media (max-width: 460px) { .book-card { flex-direction: column; align-items: center; text-align: center; } .book-buy { justify-content: center; } }
+
+/* ---------- Substack feed placeholder (auto-populates via RSS once live) ---------- */
+.feed-soon {
+  max-width: 820px; margin: 22px auto 0; padding: 30px 28px; text-align: center;
+  border: 1px dashed var(--gold-soft); border-radius: var(--radius);
+  background: repeating-linear-gradient(45deg, #faf6ef, #faf6ef 12px, #f5efe4 12px, #f5efe4 24px);
+}
+.feed-soon p { margin: 0; font-family: "Cormorant Garamond", serif; font-size: 1.25rem; color: var(--muted); }
 
 /* ---------- Credentials ---------- */
 .credentials-grid { display: grid; grid-template-columns: 1.3fr .7fr; gap: 48px; align-items: start; }
